@@ -1,0 +1,212 @@
+[
+  {
+    "名称": "示波器",
+    "分类": "测量仪器",
+    "典型实验": "测量放大电路输出波形、观察RC充放电曲线、数字信号时序分析",
+    "现实图像": "/images/instruments/real/instrument-001.png",
+    "原理图像": "/images/instruments/schematic/instrument-001.png"
+  },
+  {
+    "名称": "信号发生器",
+    "分类": "信号源",
+    "典型实验": "为放大器提供输入信号、模拟传感器输出、测试滤波器频率响应",
+    "现实图像": "/images/instruments/real/instrument-002.png",
+    "原理图像": "/images/instruments/schematic/instrument-002.png"
+  },
+  {
+    "名称": "直流稳压电源",
+    "分类": "电源",
+    "典型实验": "为实验电路提供稳定电压、验证电路在不同电压下的工作状态",
+    "现实图像": "/images/instruments/real/instrument-003.png",
+    "原理图像": "/images/instruments/schematic/instrument-003.png"
+  },
+  {
+    "名称": "万用表",
+    "分类": "测量仪器",
+    "典型实验": "测量电阻阻值、检测电路节点电压、检查二极管极性",
+    "现实图像": "/images/instruments/real/instrument-004.png",
+    "原理图像": "/images/instruments/schematic/instrument-004.png"
+  },
+  {
+    "名称": "频谱分析仪",
+    "分类": "射频测量仪器",
+    "典型实验": "观察振荡器输出频谱、测量放大器谐波失真、分析调制信号",
+    "现实图像": "/images/instruments/real/instrument-005.png",
+    "原理图像": "/images/instruments/schematic/instrument-005.png"
+  },
+  {
+    "名称": "网络分析仪",
+    "分类": "射频测量仪器",
+    "典型实验": "测量滤波器S参数、天线阻抗匹配调试、放大器增益与回损测试",
+    "现实图像": "/images/instruments/real/instrument-006.png",
+    "原理图像": "/images/instruments/schematic/instrument-006.png"
+  },
+  {
+    "名称": "逻辑分析仪",
+    "分类": "数字测量仪器",
+    "典型实验": "捕获SPI/I2C总线时序、分析计数器状态转换、调试FPGA逻辑",
+    "现实图像": "/images/instruments/real/instrument-007.png",
+    "原理图像": "/images/instruments/schematic/instrument-007.png"
+  },
+  {
+    "名称": "LCR电桥",
+    "分类": "元器件测试",
+    "典型实验": "精确测量未知电容/电感值、分析电容等效串联电阻(ESR)",
+    "现实图像": "/images/instruments/real/instrument-008.png",
+    "原理图像": "/images/instruments/schematic/instrument-008.png"
+  },
+  {
+    "名称": "频率计",
+    "分类": "测量仪器",
+    "典型实验": "测量晶振输出频率、校准信号发生器频率准确度",
+    "现实图像": "/images/instruments/real/instrument-009.png",
+    "原理图像": "/images/instruments/schematic/instrument-009.png"
+  },
+  {
+    "名称": "功率计",
+    "分类": "射频测量仪器",
+    "典型实验": "测量发射机输出功率、标定天线增益",
+    "现实图像": "/images/instruments/real/instrument-010.png",
+    "原理图像": "/images/instruments/schematic/instrument-010.png"
+  },
+  {
+    "名称": "函数发生器",
+    "分类": "信号源",
+    "典型实验": "产生调制信号用于通信实验、输出任意波形测试电路响应",
+    "现实图像": "/images/instruments/real/instrument-011.png",
+    "原理图像": "/images/instruments/schematic/instrument-011.png"
+  },
+  {
+    "名称": "任意波形发生器",
+    "分类": "信号源",
+    "典型实验": "模拟生物电信号、生成自定义干扰信号测试滤波器性能",
+    "现实图像": "/images/instruments/real/instrument-012.png",
+    "原理图像": "/images/instruments/schematic/instrument-012.png"
+  },
+  {
+    "名称": "晶体管特性图示仪",
+    "分类": "元器件测试",
+    "典型实验": "测量BJT输出特性曲线、确定MOSFET阈值电压",
+    "现实图像": "/images/instruments/real/instrument-013.png",
+    "原理图像": "/images/instruments/schematic/instrument-013.png"
+  },
+  {
+    "名称": "失真度测试仪",
+    "分类": "测量仪器",
+    "典型实验": "评估音频功放的总谐波失真(THD)、分析信号纯度",
+    "现实图像": "/images/instruments/real/instrument-014.png",
+    "原理图像": "/images/instruments/schematic/instrument-014.png"
+  },
+  {
+    "名称": "毫伏表",
+    "分类": "测量仪器",
+    "典型实验": "测量前置放大器微弱信号、检测振荡器输出电压",
+    "现实图像": "/images/instruments/real/instrument-015.png",
+    "原理图像": "/images/instruments/schematic/instrument-015.png"
+  },
+  {
+    "名称": "高斯计/特斯拉计",
+    "分类": "测量仪器",
+    "典型实验": "测量扬声器磁场分布、检测电磁铁磁感应强度",
+    "现实图像": "/images/instruments/real/instrument-016.png",
+    "原理图像": "/images/instruments/schematic/instrument-016.png"
+  },
+  {
+    "名称": "静电计/高阻计",
+    "分类": "测量仪器",
+    "典型实验": "测量绝缘材料电阻、检测微弱电流",
+    "现实图像": "/images/instruments/real/instrument-017.png",
+    "原理图像": "/images/instruments/schematic/instrument-017.png"
+  },
+  {
+    "名称": "脉冲发生器",
+    "分类": "信号源",
+    "典型实验": "测试触发器边沿响应、模拟数字电路中的突发干扰",
+    "现实图像": "/images/instruments/real/instrument-018.png",
+    "原理图像": "/images/instruments/schematic/instrument-018.png"
+  },
+  {
+    "名称": "误码率测试仪",
+    "分类": "数字通信测试",
+    "典型实验": "评估光纤通信链路质量、测试无线模块的误码性能",
+    "现实图像": "/images/instruments/real/instrument-019.png",
+    "原理图像": "/images/instruments/schematic/instrument-019.png"
+  },
+  {
+    "名称": "矢量信号分析仪",
+    "分类": "射频测量仪器",
+    "典型实验": "分析QAM调制信号的误差矢量幅度(EVM)、解调数字通信信号",
+    "现实图像": "/images/instruments/real/instrument-020.png",
+    "原理图像": "/images/instruments/schematic/instrument-020.png"
+  },
+  {
+    "名称": "射频信号源",
+    "分类": "信号源",
+    "典型实验": "提供本振信号给混频器、测试射频放大器线性度",
+    "现实图像": "/images/instruments/real/instrument-021.png",
+    "原理图像": "/images/instruments/schematic/instrument-021.png"
+  },
+  {
+    "名称": "衰减器",
+    "分类": "射频附件",
+    "典型实验": "保护频谱仪输入级、调整信号电平至合适范围",
+    "现实图像": "/images/instruments/real/instrument-022.png",
+    "原理图像": "/images/instruments/schematic/instrument-022.png"
+  },
+  {
+    "名称": "功率探头",
+    "分类": "射频附件",
+    "典型实验": "配合功率计精确测量射频功率、校准信号源输出",
+    "现实图像": "/images/instruments/real/instrument-023.png",
+    "原理图像": "/images/instruments/schematic/instrument-023.png"
+  },
+  {
+    "名称": "天线",
+    "分类": "射频器件",
+    "典型实验": "测量天线方向图、测试收发系统通信距离",
+    "现实图像": "/images/instruments/real/instrument-024.png",
+    "原理图像": "/images/instruments/schematic/instrument-024.png"
+  },
+  {
+    "名称": "屏蔽箱",
+    "分类": "实验辅助",
+    "典型实验": "在隔离环境下测试蓝牙/WiFi模块灵敏度、减少外部电磁干扰",
+    "现实图像": "/images/instruments/real/instrument-025.png",
+    "原理图像": "/images/instruments/schematic/instrument-025.png"
+  },
+  {
+    "名称": "电子负载",
+    "分类": "电源测试",
+    "典型实验": "测试稳压电源在不同负载下的输出特性、模拟电池放电",
+    "现实图像": "/images/instruments/real/instrument-026.png",
+    "原理图像": "/images/instruments/schematic/instrument-026.png"
+  },
+  {
+    "名称": "温度箱/恒温槽",
+    "分类": "环境测试",
+    "典型实验": "测量振荡器频率随温度变化、评估电路高温稳定性",
+    "现实图像": "/images/instruments/real/instrument-027.png",
+    "原理图像": "/images/instruments/schematic/instrument-027.png"
+  },
+  {
+    "名称": "焊接工具",
+    "分类": "基础工具",
+    "典型实验": "焊接贴片元件、拆卸IC芯片、修复电路板",
+    "现实图像": "/images/instruments/real/instrument-028.png",
+    "原理图像": "/images/instruments/schematic/instrument-028.png"
+  },
+  {
+    "名称": "面包板/万能板",
+    "分类": "实验辅助",
+    "典型实验": "搭建放大电路原型、快速验证数字逻辑设计",
+    "现实图像": "/images/instruments/real/instrument-029.png",
+    "原理图像": "/images/instruments/schematic/instrument-029.png"
+  },
+  {
+    "名称": "探头",
+    "分类": "测量附件",
+    "典型实验": "使用高压探头测开关电源波形、差分探头测桥式电路",
+    "现实图像": "/images/instruments/real/instrument-030.png",
+    "原理图像": "/images/instruments/schematic/instrument-030.png"
+  }
+]

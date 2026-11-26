@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <title>智能教学辅助助手</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      height: 100vh;
+      overflow: hidden;
+    }
+  </style>
+
+  <!--
+    注意：以下资源全部使用「绝对路径 /vendor/...」引用。
+    因为前端是 history 模式路由，在 /analog-circuit-experiments/1 这类子页面刷新时，
+    相对路径会被解析成 /analog-circuit-experiments/vendor/... 而 404。
+  -->
+
+  <!--
+    第三方访问统计（51.la）。它会请求外部域名并上报访客数据，
+    且是外域同步脚本，网络不通时会拖慢首页加载。
+    如需论文中的访问量统计，取消下面几行注释即可；答辩演示建议保持注释状态。
+  <script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script>
+  <script>
+    LA.init({ id: "3LsLCdTDFY7Qh6u4", ck: "3LsLCdTDFY7Qh6u4" });
+  </script>
+  -->
+
+  <!-- Markdown 渲染：本地依赖（public/vendor/marked.min.js，v15.0.7，与 package.json 一致），离线可用 -->
+  <script src="/vendor/marked.min.js"></script>
+  <!-- MathJax 配置：本地依赖，改用 SVG 输出，无需再联网加载字体文件 -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["$", "$"], ["\\(", "\\)"]],
+        displayMath: [["$$", "$$"], ["\\[", "\\]"]]
+      },
+      options: {
+        skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+      },
+      startup: {
+        typeset: false
+      }
+    };
+  </script>
+  <script src="/vendor/mathjax/tex-mml-svg.js"></script>
+</head>
+  <body>
+    <div id="app"></div>
+    <!-- Vue 应用挂载点 -->
+  </body>
+</html>

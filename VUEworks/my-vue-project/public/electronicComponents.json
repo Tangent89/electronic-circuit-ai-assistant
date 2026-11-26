@@ -1,0 +1,240 @@
+[
+  {
+    "关键字": "电阻",
+    "说明": "用于限制电流、分压、匹配阻抗的基础元件，单位欧姆（Ω）。",
+    "使用示例": "LED限流电阻：5V电源串联220Ω电阻保护LED。",
+    "现实图像": "/images/components/real/component-001.png",
+    "原理图像": "/images/components/schematic/component-001.png"
+  },
+  {
+    "关键字": "电容",
+    "说明": "储存电荷，用于滤波、耦合、去耦、定时等，单位法拉（F）。",
+    "使用示例": "电源滤波：1000μF电解电容并联在电源输出端减小纹波。",
+    "现实图像": "/images/components/real/component-002.png",
+    "原理图像": "/images/components/schematic/component-002.png"
+  },
+  {
+    "关键字": "电感",
+    "说明": "储存磁能，用于滤波、振荡、扼流等，单位亨利（H）。",
+    "使用示例": "LC振荡电路：电感与电容并联构成选频网络。",
+    "现实图像": "/images/components/real/component-003.png",
+    "原理图像": "/images/components/schematic/component-003.png"
+  },
+  {
+    "关键字": "二极管",
+    "说明": "单向导电，用于整流、检波、续流等。",
+    "使用示例": "半波整流：1N4007串联在交流电路中输出脉动直流。",
+    "现实图像": "/images/components/real/component-004.png",
+    "原理图像": "/images/components/schematic/component-004.png"
+  },
+  {
+    "关键字": "稳压二极管",
+    "说明": "工作在反向击穿区，用于提供稳定电压。",
+    "使用示例": "并联稳压：5.1V稳压管与限流电阻构成简易5V电源。",
+    "现实图像": "/images/components/real/component-005.png",
+    "原理图像": "/images/components/schematic/component-005.png"
+  },
+  {
+    "关键字": "发光二极管（LED）",
+    "说明": "电致发光，用作指示灯或照明。",
+    "使用示例": "电源指示灯：5mA电流驱动红色LED指示电路通电。",
+    "现实图像": "/images/components/real/component-006.png",
+    "原理图像": "/images/components/schematic/component-006.png"
+  },
+  {
+    "关键字": "双极型晶体管（BJT）",
+    "说明": "电流控制型器件，用于放大和开关，常见NPN/PNP。",
+    "使用示例": "共射放大电路：2N3904构成电压放大器。",
+    "现实图像": "/images/components/real/component-007.png",
+    "原理图像": "/images/components/schematic/component-007.png"
+  },
+  {
+    "关键字": "场效应晶体管（FET/MOSFET）",
+    "说明": "电压控制型器件，高输入阻抗，用于放大和功率开关。",
+    "使用示例": "电机驱动：IRF540N作为开关管控制直流电机。",
+    "现实图像": "/images/components/real/component-008.png",
+    "原理图像": "/images/components/schematic/component-008.png"
+  },
+  {
+    "关键字": "运算放大器",
+    "说明": "高增益差动放大器，用于信号运算、滤波、比较等。",
+    "使用示例": "反相比例放大：LM358构成放大倍数为-10的放大器。",
+    "现实图像": "/images/components/real/component-009.png",
+    "原理图像": "/images/components/schematic/component-009.png"
+  },
+  {
+    "关键字": "比较器",
+    "说明": "比较两个输入电压，输出高/低电平，常用于阈值检测。",
+    "使用示例": "光控开关：LM393比较光敏电阻分压与参考电压。",
+    "现实图像": "/images/components/real/component-010.png",
+    "原理图像": "/images/components/schematic/component-010.png"
+  },
+  {
+    "关键字": "逻辑门（与门）",
+    "说明": "实现逻辑与运算，常用芯片如74LS08。",
+    "使用示例": "使能控制：两个输入都为高时输出高。",
+    "现实图像": "/images/components/real/component-011.png",
+    "原理图像": "/images/components/schematic/component-011.png"
+  },
+  {
+    "关键字": "逻辑门（或门）",
+    "说明": "实现逻辑或运算，常用芯片如74LS32。",
+    "使用示例": "报警触发：任一传感器触发即输出报警信号。",
+    "现实图像": "/images/components/real/component-012.png",
+    "原理图像": "/images/components/schematic/component-012.png"
+  },
+  {
+    "关键字": "逻辑门（非门）",
+    "说明": "实现逻辑非运算，常用芯片如74LS04。",
+    "使用示例": "反相器：输入高输出低，用于逻辑取反。",
+    "现实图像": "/images/components/real/component-013.png",
+    "原理图像": "/images/components/schematic/component-013.png"
+  },
+  {
+    "关键字": "触发器（D触发器）",
+    "说明": "存储一位数据，边沿触发，常用芯片如74LS74。",
+    "使用示例": "分频器：将时钟信号二分频。",
+    "现实图像": "/images/components/real/component-014.png",
+    "原理图像": "/images/components/schematic/component-014.png"
+  },
+  {
+    "关键字": "计数器",
+    "说明": "对脉冲计数，实现分频、定时等，常用芯片如74LS90。",
+    "使用示例": "数字频率计：对输入信号进行脉冲计数。",
+    "现实图像": "/images/components/real/component-015.png",
+    "原理图像": "/images/components/schematic/component-015.png"
+  },
+  {
+    "关键字": "晶振",
+    "说明": "提供精确时钟信号，利用石英晶体压电效应。",
+    "使用示例": "单片机时钟：16MHz晶振为STM32提供主频。",
+    "现实图像": "/images/components/real/component-016.png",
+    "原理图像": "/images/components/schematic/component-016.png"
+  },
+  {
+    "关键字": "变压器",
+    "说明": "变换电压、电流或阻抗，基于电磁感应。",
+    "使用示例": "电源变压器：220V交流转12V交流。",
+    "现实图像": "/images/components/real/component-017.png",
+    "原理图像": "/images/components/schematic/component-017.png"
+  },
+  {
+    "关键字": "继电器",
+    "说明": "电磁开关，用小电流控制大电流负载。",
+    "使用示例": "自动控制：5V继电器控制220V灯泡亮灭。",
+    "现实图像": "/images/components/real/component-018.png",
+    "原理图像": "/images/components/schematic/component-018.png"
+  },
+  {
+    "关键字": "电位器",
+    "说明": "可调电阻，用于分压、音量调节等。",
+    "使用示例": "音量旋钮：10kΩ电位器作为音频信号分压器。",
+    "现实图像": "/images/components/real/component-019.png",
+    "原理图像": "/images/components/schematic/component-019.png"
+  },
+  {
+    "关键字": "光耦",
+    "说明": "电-光-电隔离器件，实现信号隔离传输。",
+    "使用示例": "隔离驱动：PC817隔离单片机与强电电路。",
+    "现实图像": "/images/components/real/component-020.png",
+    "原理图像": "/images/components/schematic/component-020.png"
+  },
+  {
+    "关键字": "传感器（如光敏电阻）",
+    "说明": "将物理量转换为电信号的元件。",
+    "使用示例": "光线检测：光敏电阻与固定电阻分压检测光照强度。",
+    "现实图像": "/images/components/real/component-021.png",
+    "原理图像": "/images/components/schematic/component-021.png"
+  },
+  {
+    "关键字": "电机",
+    "说明": "将电能转换为机械能，包括直流电机、步进电机等。",
+    "使用示例": "直流电机驱动：L298N驱动模块控制电机转速。",
+    "现实图像": "/images/components/real/component-022.png",
+    "原理图像": "/images/components/schematic/component-022.png"
+  },
+  {
+    "关键字": "扬声器/蜂鸣器",
+    "说明": "电声转换器件，用于发声提示。",
+    "使用示例": "报警器：单片机输出方波驱动无源蜂鸣器。",
+    "现实图像": "/images/components/real/component-023.png",
+    "原理图像": "/images/components/schematic/component-023.png"
+  },
+  {
+    "关键字": "保险丝",
+    "说明": "过流保护元件，熔断切断电路。",
+    "使用示例": "电源输入端串联1A保险丝防止短路损坏。",
+    "现实图像": "/images/components/real/component-024.png",
+    "原理图像": "/images/components/schematic/component-024.png"
+  },
+  {
+    "关键字": "开关",
+    "说明": "手动接通或断开电路，包括按键、拨码开关等。",
+    "使用示例": "电源开关：船型开关控制整个电路通断。",
+    "现实图像": "/images/components/real/component-025.png",
+    "原理图像": "/images/components/schematic/component-025.png"
+  },
+  {
+    "关键字": "连接器",
+    "说明": "用于导线或板间连接，如排针、USB、BNC等。",
+    "使用示例": "编程接口：2.54mm间距排针连接下载器。",
+    "现实图像": "/images/components/real/component-026.png",
+    "原理图像": "/images/components/schematic/component-026.png"
+  },
+  {
+    "关键字": "电池/电源",
+    "说明": "提供电路工作所需的电能，如干电池、锂电池。",
+    "使用示例": "便携设备：3.7V锂电池经升压电路供电。",
+    "现实图像": "/images/components/real/component-027.png",
+    "原理图像": "/images/components/schematic/component-027.png"
+  },
+  {
+    "关键字": "可变电容",
+    "说明": "电容量可调，用于调谐回路。",
+    "使用示例": "收音机调谐：调节可变电容改变接收频率。",
+    "现实图像": "/images/components/real/component-028.png",
+    "原理图像": "/images/components/schematic/component-028.png"
+  },
+  {
+    "关键字": "可变电感",
+    "说明": "电感量可调，用于匹配或调谐。",
+    "使用示例": "射频功放输出匹配：调节磁芯改变电感量。",
+    "现实图像": "/images/components/real/component-029.png",
+    "原理图像": "/images/components/schematic/component-029.png"
+  },
+  {
+    "关键字": "天线",
+    "说明": "辐射或接收电磁波，用于无线通信。",
+    "使用示例": "2.4GHz WiFi天线：1/4波长单极子天线。",
+    "现实图像": "/images/components/real/component-030.png",
+    "原理图像": "/images/components/schematic/component-030.png"
+  },
+  {
+    "关键字": "滤波器（如SAW滤波器）",
+    "说明": "选频器件，让特定频率通过。",
+    "使用示例": "射频前端：SAW滤波器滤除带外干扰。",
+    "现实图像": "/images/components/real/component-031.png",
+    "原理图像": "/images/components/schematic/component-031.png"
+  },
+  {
+    "关键字": "射频放大器",
+    "说明": "放大射频信号，常用GaAs或SiGe工艺。",
+    "使用示例": "低噪声放大器：LNA放大微弱GPS信号。",
+    "现实图像": "/images/components/real/component-032.png",
+    "原理图像": "/images/components/schematic/component-032.png"
+  },
+  {
+    "关键字": "混频器",
+    "说明": "实现频率变换，将两个信号相乘得到和频与差频。",
+    "使用示例": "超外差接收机：将射频信号下变频到中频。",
+    "现实图像": "/images/components/real/component-033.png",
+    "原理图像": "/images/components/schematic/component-033.png"
+  },
+  {
+    "关键字": "锁相环（PLL）",
+    "说明": "相位同步环路，用于频率合成、调制解调。",
+    "使用示例": "频率合成器：生成本地振荡器信号。",
+    "现实图像": "/images/components/real/component-034.png",
+    "原理图像": "/images/components/schematic/component-034.png"
+  }
+]
